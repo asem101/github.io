@@ -87,7 +87,7 @@
         document.getElementById('test').textContent = "This is mobile";
       }
 
-      function isMobile() {
+      function kendoIsMobile() {
             var result = false;
             var matches = [
                 /(Windows Phone(?: OS)?)\s(\d+)\.(\d+(\.\d+)?)/,
@@ -115,7 +115,7 @@
             return result;
         }
 
-        if (isMobile == true) {
+        if (kendoIsMobile() == true) {
             document.getElementById('test').textContent = "This is mobile";
         }
     </script>
